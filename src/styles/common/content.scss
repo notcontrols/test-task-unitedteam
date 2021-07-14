@@ -1,0 +1,35 @@
+.content {
+  max-width: 550px;
+  .title {
+    font-size: 36px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #333333;
+    margin: 0 0 20px;
+    @media (max-width: 576px) {
+      font-size: 30px;
+      line-height: 28px;
+    }
+  }
+  .subtitle {
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 300;
+    color: #999999;
+    @media (max-width: 576px) {
+      font-size: 14px;
+      line-height: 28px;
+    }
+  }
+  .text {
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #575757;
+    margin: 20px 0 40px;
+    @media (max-width: 576px) {
+      font-size: 11px;
+      line-height: 25px;
+    }
+  }
+}

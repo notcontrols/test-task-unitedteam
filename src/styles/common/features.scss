@@ -1,0 +1,22 @@
+.features {
+  background-color: #dde0e3;
+  padding: 110px 0 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  .features-content {
+    text-align: end;
+    margin: 0 100px 0 15px;
+
+    @media (max-width: 576px) {
+      margin: 0 50px 0 10px;
+    }
+  }
+  .features-image {
+    margin-right: -500px;
+    @media (max-width: 576px) {
+      margin-right: -300px;
+    }
+  }
+}

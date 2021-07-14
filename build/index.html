@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UNITEDTeaM</title>
+
+    <link rel="stylesheet" href="css/app.min.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">UNITEDTeaM</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarMobile"
+            aria-controls="navbarMobile"
+            aria-expanded="false"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-between"
+            id="navbarMobile"
+          >
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+            </div>
+
+            <button type="button" id="myBtn" class="btn btn-outline-success">
+              Открыть модальное окно
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container-fluid p-0">
+        <div class="carousel-wrapper">
+          <span id="item-1"></span>
+          <span id="item-2"></span>
+          <span id="item-3"></span>
+          <div class="carousel-item item-1">
+            <h2>Item 1</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              lacus nunc, imperdiet sed mi et, finibus suscipit mi.
+            </p>
+            <a class="arrow arrow-prev" href="#item-3"></a>
+            <a class="arrow arrow-next" href="#item-2"></a>
+          </div>
+
+          <div class="carousel-item item-2">
+            <h2>Item 2</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              accumsan pretium dolor vel convallis. Aliquam erat volutpat.
+            </p>
+            <a class="arrow arrow-prev" href="#item-1"></a>
+            <a class="arrow arrow-next" href="#item-3"></a>
+          </div>
+
+          <div class="carousel-item item-3">
+            <h2>Item 3</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              accumsan pretium dolor vel convallis. Aliquam erat volutpat.
+            </p>
+            <a class="arrow arrow-prev" href="#item-2"></a>
+            <a class="arrow arrow-next" href="#item-1"></a>
+          </div>
+        </div>
+
+        <div class="intro">
+          <img class="intro-image" src="./img/dest/laptop.png" />
+          <div class="intro-content content">
+            <div class="title">Great Theme</div>
+            <div class="subtitle">
+              Curabitur ac lacus arcu. Sed vehicula varius lectus auctor
+              viverra. Nulla vehicula nibh vel ante commodo feugiat.
+            </div>
+            <div class="introducing-text text">
+              Cras gravida arcu tincidunt, suscipit velit sed, porta sapien.
+              Maecenas a aliquam lectus. Vivamus consequat purus quis ligula
+              vestibulum, eget mattis ex fermentum. Donec placerat felis sit
+              amet venenatis faucibus. Praesent aliquet convallis.
+            </div>
+          </div>
+        </div>
+
+        <div class="features">
+          <div class="features-content content">
+            <div class="title">Development</div>
+            <div class="subtitle">
+              Curabitur ac lacus arcu. Sed vehicula varius lectus auctor
+              viverra. Nulla vehicula nibh vel ante commodo feugiat.
+            </div>
+            <div class="features-text text">
+              Cras gravida arcu tincidunt, suscipit velit sed, porta sapien.
+              Maecenas a aliquam lectus. Vivamus consequat purus quis ligula
+              vestibulum, eget mattis ex fermentumDonec placerat felis sit amet
+              venenatis faucibus. Praesent aliquet
+            </div>
+          </div>
+          <img src="./img/dest/tablet.png" class="features-image" />
+        </div>
+
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title">Модальное окно</h3>
+                <a href="#close" title="Close" class="close">×</a>
+              </div>
+              <div class="modal-body">
+                <p>Некоторый текст в модальном окне</p>
+                <p>Какой-то другой текст...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
