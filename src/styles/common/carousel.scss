@@ -1,4 +1,4 @@
-.carousel-wrapper {
+.carousel {
   height: 600px;
   position: relative;
   width: 100%;
@@ -7,7 +7,7 @@
   [id^='item'] {
     display: none;
   }
-  .carousel-item {
+  .item {
     position: absolute;
     top: 0;
     bottom: 0;
